@@ -10,7 +10,7 @@
 ## [Poster Bois]
 ### 1. What parts were you in charge of?
 
-[Collin (GL)]:
+'[Collin (GL)]'
 - Subscription
 - Testimonies
 - Templates
@@ -21,7 +21,7 @@
 - Media-Query
 
 
-[Hisyam]:
+'[Hisyam]'
 - Nav Bar
 - Header 
 - Footer
@@ -31,7 +31,7 @@
 
 ### 2. Explain the feature you are most proud of. What techniques/methods you've used?
 
-[Collin]:
+'[Collin]'
 - I would say the Mobile & Tablet Navigation Bar or rather, Side Bar for the mobile & tablet view. I used everything that I've learned, HTML, CSS, JS. I even applied a similar solution that I used for another section (Surprise section), I just took it to the next step.
 
 ```HTML
