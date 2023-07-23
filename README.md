@@ -137,7 +137,7 @@ basicSignup.forEach(btn => {
 `[Collin]`
 - For me it would be the infinite scrolling at the "Testimonies section". We had a meeting with our student mentor but unfortunately he was unable to help. I decided to dedicate my time searching for solution and learning. I manage to find a video of similar project. From there it was trial and error until I managed to get to solve it.
 
-`[Histam]`
+`[Hisyam]`
 - The pop-up sub menu. The problem is there is a gap between the menu option and the pop-up submenu so the hover effect disappears whenever the cursor gets in the gap. so I used the button element as the menu options and create invisible divs around the button which cover the gap and I apply hover effect on the div instead so the effect stays on. 
 
 ### 4. Name one improvement you would like to work on.
