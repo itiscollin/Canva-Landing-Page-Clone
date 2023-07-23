@@ -10,7 +10,7 @@
 ## [Poster Bois]
 ### 1. What parts were you in charge of?
 
-'[Collin (GL)]'
+`[Collin (GL)]`
 - Subscription
 - Testimonies
 - Templates
@@ -21,7 +21,7 @@
 - Media-Query
 
 
-'[Hisyam]'
+`[Hisyam]`
 - Nav Bar
 - Header 
 - Footer
@@ -31,7 +31,7 @@
 
 ### 2. Explain the feature you are most proud of. What techniques/methods you've used?
 
-'[Collin]'
+`[Collin]`
 - I would say the Mobile & Tablet Navigation Bar or rather, Side Bar for the mobile & tablet view. I used everything that I've learned, HTML, CSS, JS. I even applied a similar solution that I used for another section (Surprise section), I just took it to the next step.
 
 ```HTML
@@ -85,7 +85,7 @@ basicSignup.forEach(btn => {
 ```
 
 
-[Hisyam]:
+`[Hisyam]`
 - The navigation bar and pop-up submenu. Used a lot of divs and flexbox and also apply the hover effect on the correct div.
 
 ```HTML
@@ -134,21 +134,22 @@ basicSignup.forEach(btn => {
 ### 3. Name one coding struggle and how you dealt with it
 `(example)`
 
-[Collin]
+`[Collin]`
 - For me it would be the infinite scrolling at the "Testimonies section". We had a meeting with our student mentor but unfortunately he was unable to help. I decided to dedicate my time searching for solution and learning. I manage to find a video of similar project. From there it was trial and error until I managed to get to solve it.
 
-[Histam]
+`[Histam]`
 - The pop-up sub menu. The problem is there is a gap between the menu option and the pop-up submenu so the hover effect disappears whenever the cursor gets in the gap. so I used the button element as the menu options and create invisible divs around the button which cover the gap and I apply hover effect on the div instead so the effect stays on. 
 
 ### 4. Name one improvement you would like to work on.
 
-[Collin]
+`[Collin]`
 -Definitely the template section. I couldn't figure out to do it cleanly for all media queries and due to other priorities, I've decided to leave it bare minimum as is. I'd wish to be able to make it "cleanly" responsive and have a proper JS code implemented.
 
 
-[Hisyam]
+`[Hisyam]`
 - The positioning of pop-up sub menu. Used a lot of margin but I figured there must be a more efficient way to do that.
-- 
+
+  
 # Useful resources 
 
 - [Chat.gpt](http://chat.openai.com) - Helpful to guide and provide assistance to coding and debugging
