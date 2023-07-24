@@ -818,8 +818,13 @@ body {
 
 .nav-list-l {
   display: flex;
+
+  /* justify-content: flex-start; */
   align-items: center;
+  /* border: 1px solid green; */
+  /* width: 45%; */
   flex: 1 1 10%;
+  /* border: 1px solid blue; */
 }
 
 .nav-list-l li {
@@ -1815,7 +1820,54 @@ hr {
   justify-content: center;
 }
 
+#top-header-signup {
+  display: flex;
+  flex-direction: row;
+}
 
+#top-header-signup h2 {
+  font-size: 1.5vw;
+  word-spacing: 0.1rem;
+  font-weight: 1rem;
+}
+
+#top-header-signup button {
+  margin-left: 0%;
+  border: none;
+  background-color: #ffffff;
+}
+
+#top-header-signup button:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container span {
+  font-size: 0.8vw;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#workmail-form {
+  height: 2.2rem;
+  border: 1px solid;
+  border-radius: 0.2rem;
+  outline: 1px;
+
+}
+
+#workmail-form:focus {
+  outline-color: 1px #8b3dff;
+  border: 1px solid #8b3dff;
+}
+
+#workmail-continue-btn {
+  margin-top: 1rem;
+}
 
 @media (max-width:899px) {
   .login-image {
@@ -1853,6 +1905,21 @@ hr {
     max-width: 75%;
   }
 
+  #work-mail-signup{
+  max-width: 100%
+}
+
+  #top-header-signup h2 {
+  font-size: 2.5vw;
+}
+  #top-header-signup p {
+  font-size: 2.5vw;
+}
+
+  .form-container span {
+  font-size: 1.5vw;
+}
+
   .login-buttons {
 
     font-size: 2vw;
@@ -1861,6 +1928,8 @@ hr {
   .pop-up {
     width: 100%;
   }
+
+  
 }
 
 /*Mobile nav bar */

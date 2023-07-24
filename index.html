@@ -1680,7 +1680,7 @@
       <div class="pop-up">
 
         <div class="login-section">
-          <div class="login-section-container">
+          <div class="login-section-container " id="login-front">
             <div class="login-header">
               <h2>Log in or Sign up in seconds</h2>
               <p>Use your email or another service to continue with Canva (it's free)!</p>
@@ -1720,7 +1720,33 @@
                 </svg>Sign up with your work mail</button>
             </div>
           </div>
+          <div class="login-section-container sub-display-none" id="work-mail-signup">
+            <div class="login-header">
+              <div id="top-header-signup">
+                <button id="signup-back-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M15.45 17.97 9.5 12.01a.25.25 0 0 1 0-.36l5.87-5.87a.75.75 0 0 0-1.06-1.06l-5.87 5.87c-.69.68-.69 1.8 0 2.48l5.96 5.96a.75.75 0 0 0 1.06-1.06z">
+                    </path>
+                  </svg></button>
+                <h2>Continue with your work email</h2>
+              </div>
+
+              <p>Using your work email makes it easier to design together with your team.</p>
+
+              <form class="email-form" action="https://youtu.be/tgTUtfb0Ok8?t=1" method="GET">
+                <div class="form-container">
+                  <span>Work Mail</span>
+                  <input id="workmail-form" type="email" placeholder="name@workmail.com" required>
+
+                  <button id="workmail-continue-btn" type="submit" class="purple-button">
+                    Continue </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
+
 
         <div class="login-image">
           <img class="ctzgyg" alt=""
@@ -1798,7 +1824,7 @@
     </div>
 
     <!--Mobile Nav Bar  -->
-    <div #id="side-nav-bar" class="blur sub-display-none">
+    <div class="blur sub-display-none">
       <div class="sub-menu-blank"></div>
       <div class="sub-menu">
         <div class="sub-menu-container">

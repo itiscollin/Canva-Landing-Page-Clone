@@ -171,3 +171,26 @@ for (i = 0; i < sideBarCloseBtn.length; i++) {
     }
   })
 }
+
+// Pro-popup
+
+const proPopup = document.querySelector("pop-up-pro-section")
+
+
+// Workmail Popup section
+
+const mainPopup = document.getElementById("login-front");
+const workPopup = document.getElementById("work-mail-signup");
+const workmailLink = document.querySelector(".workmail-container");
+const workmailBackbtn = document.getElementById("signup-back-btn")
+
+workmailLink.addEventListener("click", () => {
+  mainPopup.classList.toggle("sub-display-none");
+  workPopup.classList.toggle("sub-display-none");
+});
+
+workmailBackbtn.addEventListener("click", () => {
+  mainPopup.classList.toggle("sub-display-none");
+  workPopup.classList.toggle("sub-display-none");
+});
+
