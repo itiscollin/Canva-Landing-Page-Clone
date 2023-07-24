@@ -43,6 +43,7 @@ function toggleButtonVisibility() {
 const basicSignup = document.querySelectorAll(".basic-signup")
 const basicPopup = document.querySelector(".pop-up-section")
 const close = document.getElementById("close-button")
+const mediaQuery = window.matchMedia('(max-width: 899px)')
 
 
 
@@ -52,9 +53,10 @@ basicSignup.forEach(btn => {
     console.log("button pressed")
     basicPopup.classList.toggle('popHidden')
     basicPopup.classList.toggle("popGrid")
-    blur.classList.remove("sub-display-none")
+
   })
 })
+
 
 close.addEventListener("click", () => {
   console.log("close button pressed");
