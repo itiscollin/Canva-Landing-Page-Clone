@@ -3,9 +3,11 @@
 
 ### Links
 
-- Zoom Recording URL: [Add solution URL here](https://your-solution-url.com)
-- GitHub page URL:[Add GitHub page URL here](https://your-live-site-url.com)
-- Deployed GitHub page URL: [Add deployed GitHub page URL here](https://your-live-site-url.com)
+- Zoom Recording URL: https://youtu.be/20wWt2tZq-Q
+  
+- GitHub page URL: https://github.com/itiscollin/Canva-Landing-Page-Clone
+  
+- Deployed GitHub page URL: https://itiscollin.github.io/Canva-Landing-Page-Clone/
 
 ## [Poster Bois]
 ### 1. What parts were you in charge of?
