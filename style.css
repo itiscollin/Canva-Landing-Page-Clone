@@ -590,7 +590,6 @@ body {
 .nav-list {
 
   width: 100%;
-  overflow-x: hidden;
   margin: -1rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
