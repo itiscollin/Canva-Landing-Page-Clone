@@ -145,7 +145,7 @@ basicSignup.forEach(btn => {
 ### 4. Name one improvement you would like to work on.
 
 `[Collin]`
--Definitely the template section. I couldn't figure out to do it cleanly for all media queries and due to other priorities, I've decided to leave it bare minimum as is. I'd wish to be able to make it "cleanly" responsive and have a proper JS code implemented.
+- Definitely the template section. I couldn't figure out to do it cleanly for all media queries and due to other priorities, I've decided to leave it bare minimum as is. I'd wish to be able to make it "cleanly" responsive and have a proper JS code implemented.
 
 
 `[Hisyam]`
